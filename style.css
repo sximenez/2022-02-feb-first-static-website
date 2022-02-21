@@ -175,6 +175,13 @@ p {
   padding-left: 5rem;
 }
 
+@media (max-width: 46.875em) {
+  .container {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+  }
+}
+
 .col-container {
   display: flex;
   flex-direction: row;
@@ -260,6 +267,13 @@ header {
   min-height: 75vh;
   padding: 4rem;
   border: none;
+}
+
+@media (max-width: 46.875em) {
+  .header-container {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+  }
 }
 
 .header-child {
