@@ -155,7 +155,7 @@ a:hover {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2.7rem;
   border-top: 0.25rem solid;
   padding-top: 1rem;
   margin-top: 3rem;
@@ -200,7 +200,7 @@ header h1, header p {
 }
 
 header h1 {
-  font-size: 4rem;
+  font-size: 4.4rem;
   padding-bottom: 1rem;
 }
 
@@ -264,38 +264,28 @@ header {
 
 /* Resume 
 -----------------------------------------*/
-
-/*.resume-button h3 {
+.menu-button a {
   display: flex;
   flex-direction: row;
-  gap: 4rem;
-  margin-top: 3rem;
-}*/
-
-.resume-row:after {
-  content: "";
-  display: table;
-  clear: both;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: .5rem;
+  border: .1rem solid var(--blue2);
+  text-decoration: none;
 }
 
-.resume-column {
-  float: left;
-  width: 25%;
-  margin-top: 3rem;
-  /*text-align: center;
-  border: 1px solid red;*/
+.menu-button a:hover {
+  /*border: .3rem solid var(--blue2);
+  padding: .3rem;*/
+  transform: scale(1.05);
 }
 
 @media (max-width: 46.875em) {
-  .resume-column {
-    width: 50%;
+  .menu-button a {
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem 0 -2rem 0;
   }
-}
-
-.resume-row a {
-  font-size: 2rem;
-  font-weight: 400;
-  border: none;
 }
 
 /* About 
@@ -303,7 +293,6 @@ header {
 
 /* Projects 
 -----------------------------------------*/
-
 .code-background {
   display: flex;
   flex-direction: column;
