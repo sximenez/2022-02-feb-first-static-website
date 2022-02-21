@@ -180,15 +180,23 @@ p {
   flex-direction: row;
   justify-content: flex-start;
   gap: 4rem;
+  width: 100%;
   max-width: 120rem;
 }
 
 @media (max-width: 46.875em) {
   .col-container {
     flex-direction: column;
+    gap: 0;
   }
   .col-6, .col-s-6 {
     width: 100%;
+  }
+  .menu-button {
+    padding-bottom: 4rem;
+  }
+  .menu-button:last-child {
+    padding-bottom: 0;
   }
 }
 
@@ -251,7 +259,7 @@ header {
 .header-link-container {
   display: flex;
   flex-direction: row;
-  gap: 3rem;
+  /*gap: 3rem;*/
   margin-top: 1rem;
   margin-left: 3rem;
 }
@@ -259,6 +267,7 @@ header {
 .header-link svg {
   height: 4rem;
   width: 4rem;
+  margin-right: 3rem;
   color: whitesmoke;
 }
 
@@ -376,11 +385,12 @@ footer h3 {
 footer .header-link-container {
   justify-content: center;
   margin-top: 2rem;
-  margin-left: 0;
+  margin-left: 3rem;
 }
 
 footer .header-link svg {
   height: 3rem;
   width: 3rem;
+  margin-right: 3rem;
   color: #000;
 }
