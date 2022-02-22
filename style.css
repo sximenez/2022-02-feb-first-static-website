@@ -342,6 +342,7 @@ header {
 
 .language img {
   width: 4rem;
+  margin-top: .5rem;
 }
 
 .menu-button a:hover {
