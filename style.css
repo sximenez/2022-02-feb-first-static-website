@@ -313,9 +313,21 @@ header {
   flex-direction: row;
   justify-content: center;
   margin-top: 2rem;
-  padding: .5rem;
-  border: .1rem solid var(--blue2);
+  padding: 1rem;
+  /*border: .1rem solid var(--blue2);*/
+  font-family: monospace;
+  /*font-weight: bold;*/
+  color: var(--blue2);
+  /*background-color: #F8F9FA;*/
+  /*border-left: 1px solid var(--blue2);
+  border-bottom: 1px solid var(--blue2);*/
+  /*border: .1px solid #ebebeb;*/
+  border: 1px solid var(--blue2);
+  border-radius: 2px;
+  box-shadow: #ebebeb 0.25rem 0.25rem;
   text-decoration: none;
+  font-size: 2rem;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .language a {
@@ -334,8 +346,10 @@ header {
 
 .menu-button a:hover {
   /*border: .3rem solid var(--blue2);
-  padding: .3rem;*/
-  transform: scale(1.05);
+  padding: .3rem;
+  transform: scale(1.05);*/
+  transform: translateX(0.25rem) translateY(0.25rem);
+  box-shadow: none;
 }
 
 .language a:hover {
@@ -352,8 +366,47 @@ header {
   }
 }
 
-/* About 
+/* Profile 
 -----------------------------------------*/
+
+.indent {
+  display: inline-block;
+  /*margin-left: 1.5rem;*/
+  margin-bottom: 1rem;
+}
+
+.profile-text {
+  display: block;
+  width: 100%;
+  /*width: 30rem;*/
+  text-align: left;
+  font-family: monospace;
+  background-color: #F8F9FA;
+  /*color: var(--blue2);*/
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  margin-bottom: .5rem;
+  /*border: 1px solid red;*/
+}
+
+.profile-text:first-child {
+  margin-top: 0;
+}
+
+@media (max-width: 61.875em) {
+  .profile-text {
+    width: 100%;
+    display: block;
+    margin-bottom: 0;
+  }
+}
+
+/*@media (max-width: 41.875em) {
+  .profile-text {
+    text-align: center;
+  }
+}*/
 
 /* Projects 
 -----------------------------------------*/
