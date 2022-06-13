@@ -444,9 +444,9 @@ footer div {
 
 .card {
   margin: 20px;
-  border: 1px solid transparent;
+  /*border: 1px solid lightgray;*/
   border-radius: 16px;
-  background-color: var(--secondary);
+  background-color: white;
 }
 
 .card-inverse {
@@ -457,8 +457,8 @@ footer div {
 }
 
 .card-top {
-  background-color: white;
-  border: 1px solid var(--secondary);
+  background-color: var(--secondary);
+  /*border: 1px solid transparent;*/
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
   padding: 20px 0 10px 0;
@@ -499,6 +499,11 @@ footer div {
 
 .card-bottom {
   padding: 20px;
+  border-bottom: 1px solid var(--secondary);
+  border-left: 1px solid var(--secondary);
+  border-right: 1px solid var(--secondary);
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
 }
 
 .card-bottom iframe {
