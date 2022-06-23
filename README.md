@@ -1,5 +1,4 @@
-# digital-resume
-My digital resume
+# personal-website
 
-Hi! As a beginner web developer, I'm taking the opportunity provided by Github to test my skills, record my progress, and enjoy coding.
-This is a simple, professional resume web page I've created using only HTML and CSS.
+As a beginner web developer, I've created a personal website to test my skills and record my progress.
+I think it will become with time a sort of digital notebook.
